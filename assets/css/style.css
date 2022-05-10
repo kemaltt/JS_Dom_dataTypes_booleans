@@ -1,0 +1,146 @@
+section:nth-of-type(1) {
+    padding: 5vh 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listContainer {
+    display: flex;
+}
+
+.listContainer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.listContainer li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+    padding: 2rem;
+    color: #fff;
+}
+
+.transform {
+    transform: rotateY(180deg);
+    background-color: pink;
+}
+
+
+/* ================================== */
+
+section:nth-of-type(2) {
+    padding: 5vh 35%;
+}
+
+form input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+form div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/* ========================================= */
+
+section:nth-of-type(3) {
+    font-family: 'Karla', sans-serif;
+    padding: 5vh 35%;
+}
+
+section:nth-of-type(3) button {
+    background-color: #035aa6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+section:nth-of-type(3) .wrapper {
+    max-width: 500px;
+    margin-top: 1vh;
+}
+
+.small {
+    padding: 5px;
+    border: solid 6px gray;
+    border-radius: 10px;
+    color: #45a049;
+    font-style: italic;
+}
+
+.middle {
+    padding: 5px;
+    border: solid 12px gray;
+    border-radius: 10px;
+    color: #45a049;
+    font-style: italic;
+}
+
+.bigCrazy {
+    padding: 5px;
+    border: solid 20px #45a049;
+    border-radius: 10px;
+    color: gold;
+    text-shadow: 1px 1px 3px #45a049;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 2rem;
+    transition-duration: 3s;
+}
+
+section:nth-of-type(4) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-of-type(4) button {
+    background-color: #6cace3;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>JS Vertiefung</title>
+</head>
+
+<body>
+    <!-- DOM -->
+    <!-- Lev2_1 -->
+    <section>
+        <ul>
+            <div class="listContainer">
+                <li><a class="nav" id="navHome" href="#home">Home</a></li>
+                <li><a class="nav" id="navNews" href="#news">News</a></li>
+                <li><a class="nav" id="navContact" href="#contact">Contact</a></li>
+            </div>
+            <li class="nav"><a onclick="changeMe()" class="active" id="navChange">Change me</a></li>
+        </ul>
+    </section>
+    <!-- Lev2_2 -->
+    <section>
+
+        <div>
+            <form onsubmit="return false" id="form1">
+                <label for="vorname">Vorname</label><input type="text" id="vorname" name="vorname" placeholder="Dein Name..."><label for="nachname">Last Name</label><input type="text" id="nachname" name="nachname" placeholder="Dein Nachname...">
+                <label for="land">Land</label><select id="land" name="land">
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Usa">USA</option>
+                </select>
+                <input onclick="getSubmit()" type="submit" value="Submit">
+            </form>
+        </div>
+        ”
+
+    </section>
+    <!-- Lev2_10 -->
+    <section>
+        <button onclick="small()">Small</button>
+        <button onclick="middle()">Middle</button>
+        <button onclick="bigCrazy()">Big & Crazy</button>
+
+        <div class="wrapper">
+            <div id="element" class="">
+                <h1 id="headline">Hallo classList!</h1>
+            </div>
+        </div>
+
+    </section>
+    <!-- Lev2_11 -->
+    <section id="section">
+
+        <button onclick="changeBacgroung()">Generate Random Background</button>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
