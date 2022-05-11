@@ -155,5 +155,9 @@ function bigCrazy() {
 let section = document.getElementById('section')
 const changeBacgroung = () => {
     console.log(section);
-    section.style.backgroundColor = 'rgb(' + [Math.floor(Math.random() * 255)] + ', ' + [Math.floor(Math.random() * 255)] + ', ' + [Math.floor(Math.random() * 255)] + ')'
+    let red = Math.floor(Math.random() * 256)
+    let green = Math.floor(Math.random() * 256)
+    let blue = Math.floor(Math.random() * 256)
+    console.log(red, green, blue);
+    section.style.backgroundColor = `rgb(${red},${green},${blue})`
 }
